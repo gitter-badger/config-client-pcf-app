@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.Charset;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -38,6 +39,7 @@ public class DemoApplication {
 	@RefreshScope
 	class JSONFileDemoController {
 
+		@Autowired
 		private PlainTextConfigClient configClient;
 
 		@GetMapping("/petDetails")

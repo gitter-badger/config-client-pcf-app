@@ -3,7 +3,7 @@ applications:
 - name: cfg-client-pet-store
   random-route: true
   instances: 1
-  path: target\cfgclientpetstore-4.0.0.jar
+  path: target\cfgclientpetstore-5.0.0.jar
   memory: 1G
   env:
     spring.application.name: cfgclientpetstore
