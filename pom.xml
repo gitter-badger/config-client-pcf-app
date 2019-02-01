@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.codeaches</groupId>
 	<artifactId>cfgclientpetstore</artifactId>
-	<version>2.0.0</version>
+	<version>3.0.0</version>
 
 	<name>Pet Store</name>
 	<description>An example application connecting to Pivotal Config Client</description>
