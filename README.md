@@ -1,6 +1,6 @@
 [![License MIT][MIT badge]][MIT]
 [![License ASL 2.0][ASL 2.0 badge]][ASL 2.0]
-![Maven Central](https://img.shields.io/maven-central/v/com.codeaches/cfgclientpetstore/2.0.0.svg?colorB=green&style=flat)
+![Maven Central](https://img.shields.io/maven-central/v/com.codeaches/cfgclientpetstore/3.0.0.svg?colorB=green&style=flat)
 
 ## Read me first
 
