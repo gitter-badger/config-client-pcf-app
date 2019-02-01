@@ -1,0 +1,11 @@
+---
+applications:
+  - name: demo
+    random-route: true
+    instances: 1
+    path: target\cfgclientpetstore-2.0.0.jar
+    memory: 1G
+  env:
+    spring.application.name: cfgclientpetstore
+    services:
+      - my-config-server
