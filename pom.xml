@@ -3,21 +3,25 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.2.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath />
 	</parent>
+
 	<groupId>com.codeaches</groupId>
 	<artifactId>cfgclientpetstore</artifactId>
-	<version>6.0.0</version>
+	<version>7.0.0-SNAPSHOT</version>
 
-	<name>Pet Store</name>
-	<description>An example application connecting to Pivotal Config Client</description>
+	<name>An example Config Server Client application connecting to Pivotal Config Service</name>
+	<description>An example Config Server Client application connecting to Pivotal Config Service</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
 		<spring-cloud-services.version>2.1.0.RELEASE</spring-cloud-services.version>
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
 		<nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>

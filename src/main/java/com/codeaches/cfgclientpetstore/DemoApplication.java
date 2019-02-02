@@ -26,12 +26,12 @@ public class DemoApplication {
 	@RefreshScope
 	class PropertiesDemoController {
 
-		@Value("${favourite.pet:none}")
+		@Value("${pet:none}")
 		public String pet;
 
 		@GetMapping("/pet")
-		public String favouritePet() {
-			return String.format("My favourite pet is %s", pet);
+		public String pet() {
+			return String.format("My pet is %s", pet);
 		}
 	}
 
@@ -43,7 +43,7 @@ public class DemoApplication {
 		private PlainTextConfigClient configClient;
 
 		@GetMapping("/petDetails")
-		public String favouritePet() throws IOException {
+		public String petDetails() throws IOException {
 
 			try (InputStream input = configClient.getConfigFile("pet.json").getInputStream()) {
 				return StreamUtils.copyToString(input, Charset.defaultCharset());
