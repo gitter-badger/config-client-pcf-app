@@ -2,8 +2,6 @@
 [![License ASL 2.0][ASL 2.0 badge]][ASL 2.0]
 [![Maven Central][Maven Central badge]][Maven Central]
 
-## Read me first
-
 The **current** version of this project is licensed under both [MIT] and [ASL 2.0].
 
 ## Relevant documents
