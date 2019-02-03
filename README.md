@@ -6,7 +6,7 @@ The **current** version of this project is licensed under both [MIT] and [ASL 2.
 
 ## Relevant documents
 
-The tutorial related to this project can be found on [codeaches website]
+The tutorial related to this project can be found on [Codeaches Website]
 
 [MIT badge]: https://img.shields.io/:license-MIT%202.0-blue.svg
 [MIT]: https://opensource.org/licenses/mit-license.php
@@ -17,4 +17,4 @@ The tutorial related to this project can be found on [codeaches website]
 [Maven Central badge]: https://img.shields.io/maven-central/v/com.codeaches/cfgclientpetstore/8.0.0.svg?colorB=green&style=flat 
 [Maven Central]: https://mvnrepository.com/artifact/com.codeaches/cfgclientpetstore/8.0.0
 
-[codeaches website]: https://codeaches.com/blog/spring-cloud-pcf-config-server-config-client
+[Codeaches Website]: https://codeaches.com/blog/spring-cloud-pcf-config-server-config-client
