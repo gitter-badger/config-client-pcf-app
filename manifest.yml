@@ -7,6 +7,6 @@ applications:
   memory: 1G
   env:
     spring.application.name: cfgclientpetstore
-    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.0.2_+ } }'
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
   services:
     - my-config-server
