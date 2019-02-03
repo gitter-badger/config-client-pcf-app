@@ -13,7 +13,7 @@
 
 	<groupId>com.codeaches</groupId>
 	<artifactId>cfgclientpetstore</artifactId>
-	<version>7.0.0</version>
+	<version>8.0.0-SNAPSHOT</version>
 
 	<name>An example Config Server Client application connecting to Pivotal Config Service</name>
 	<description>An example Config Server Client application connecting to Pivotal Config Service</description>
@@ -158,6 +158,10 @@
 		<developer>
 			<name>Pavan Gurudutt</name>
 			<email>pavan@codeaches.com</email>
+			<id>pavan</id>
+			<roles>
+				<role>Developer</role>
+			</roles>
 			<organization>Codeaches</organization>
 			<organizationUrl>https://codeaches.com/</organizationUrl>
 		</developer>
