@@ -26,7 +26,7 @@ public class DemoApplication {
 	@RefreshScope
 	class PropertiesDemoController {
 
-		@Value("${pet:none}")
+		@Value("${pet}")
 		public String pet;
 
 		@GetMapping("/pet")

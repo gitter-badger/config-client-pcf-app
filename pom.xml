@@ -13,7 +13,7 @@
 
 	<groupId>com.codeaches</groupId>
 	<artifactId>cfgclientpetstore</artifactId>
-	<version>7.0.0-SNAPSHOT</version>
+	<version>7.0.0</version>
 
 	<name>An example Config Server Client application connecting to Pivotal Config Service</name>
 	<description>An example Config Server Client application connecting to Pivotal Config Service</description>
