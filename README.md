@@ -16,5 +16,5 @@ The tutorial related to this project can be found in https://codeaches.com
 [ASL 2.0 badge]: https://img.shields.io/:license-Apache%202.0-blue.svg 
 [ASL 2.0]: http://www.apache.org/licenses/LICENSE-2.0.html
 
-[Maven Central badge]: https://img.shields.io/maven-central/v/com.codeaches/cfgclientpetstore/6.0.0.svg?colorB=green&style=flat 
-[Maven Central]: https://mvnrepository.com/artifact/com.codeaches/cfgclientpetstore/6.0.0
+[Maven Central badge]: https://img.shields.io/maven-central/v/com.codeaches/cfgclientpetstore/7.0.0.svg?colorB=green&style=flat 
+[Maven Central]: https://mvnrepository.com/artifact/com.codeaches/cfgclientpetstore/7.0.0
