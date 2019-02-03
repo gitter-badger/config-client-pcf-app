@@ -45,7 +45,7 @@ public class DemoApplication {
 		@GetMapping("/petDetails")
 		public String petDetails() throws IOException {
 
-			try (InputStream input = configClient.getConfigFile("pet.json").getInputStream()) {
+			try (InputStream input = configClient.getConfigFile("petDetails.json").getInputStream()) {
 				return StreamUtils.copyToString(input, Charset.defaultCharset());
 			}
 		}

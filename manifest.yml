@@ -3,9 +3,10 @@ applications:
 - name: cfg-client-pet-store
   random-route: true
   instances: 1
-  path: target\cfgclientpetstore-6.0.0.jar
+  path: target\cfgclientpetstore-7.0.0-SNAPSHOT.jar
   memory: 1G
   env:
     spring.application.name: cfgclientpetstore
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.0.2_+ } }'
   services:
     - my-config-server
