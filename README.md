@@ -1,6 +1,7 @@
 [![License MIT][MIT badge]][MIT]
 [![License ASL 2.0][ASL 2.0 badge]][ASL 2.0]
 [![Maven Central][Maven Central badge]][Maven Central]
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=aaaa)
 
 The **current** version of this project is licensed under both [MIT] and [ASL 2.0].
 
