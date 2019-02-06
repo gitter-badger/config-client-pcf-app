@@ -13,7 +13,7 @@
 
 	<groupId>com.codeaches</groupId>
 	<artifactId>cfgclientpetstore</artifactId>
-	<version>8.0.0</version>
+	<version>10.0.0</version>
 
 	<name>An example Config Server Client application connecting to Pivotal Config Service</name>
 	<description>An example Config Server Client application connecting to Pivotal Config Service</description>
@@ -24,8 +24,6 @@
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 		<spring-cloud-services.version>2.1.0.RELEASE</spring-cloud-services.version>
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
-		<nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
-		<maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
 	</properties>
 
 	<dependencies>
@@ -68,57 +66,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<groupId>org.sonatype.plugins</groupId>
-				<artifactId>nexus-staging-maven-plugin</artifactId>
-				<version>${nexus-staging-maven-plugin.version}</version>
-				<extensions>true</extensions>
-				<configuration>
-					<serverId>ossrh</serverId>
-					<nexusUrl>https://oss.sonatype.org/</nexusUrl>
-					<autoReleaseAfterClose>true</autoReleaseAfterClose>
-				</configuration>
-			</plugin>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-source-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>attach-sources</id>
-						<goals>
-							<goal>jar-no-fork</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>attach-javadocs</id>
-						<goals>
-							<goal>jar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-gpg-plugin</artifactId>
-				<version>${maven-gpg-plugin.version}</version>
-				<executions>
-					<execution>
-						<id>sign-artifacts</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>sign</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
 		</plugins>
 	</build>
 
@@ -129,17 +76,6 @@
 			<url>https://repo.spring.io/milestone</url>
 		</repository>
 	</repositories>
-
-	<distributionManagement>
-		<snapshotRepository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository>
-		<repository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-		</repository>
-	</distributionManagement>
 
 	<url>https://codeaches.com/</url>
 
