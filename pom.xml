@@ -12,11 +12,8 @@
 	</parent>
 
 	<groupId>com.codeaches</groupId>
-	<artifactId>cfgclientpetstore</artifactId>
+	<artifactId>config-client-pcf-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
-	<name>An example Config Server Client application connecting to Pivotal Config Service</name>
-	<description>An example Config Server Client application connecting to Pivotal Config Service</description>
 
 	<properties>
 		<java.version>12</java.version>
