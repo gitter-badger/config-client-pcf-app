@@ -1,7 +1,0 @@
-{  
-  "git":{  
-    "uri":"https://github.com/codeaches/config-files-example.git",
-    "label":"master",
-    "searchPaths":"dev"
-  }
-}
