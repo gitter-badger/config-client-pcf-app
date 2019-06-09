@@ -6,7 +6,7 @@ applications:
   path: target\cfgclientpetstore-0.0.1-SNAPSHOT.jar
   memory: 1G
   env:
-    spring.application.name: cfgclientpetstore
+    spring.application.name: petStore
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 12.+ } }'
   services:
     - my-config-server
