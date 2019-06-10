@@ -11,3 +11,12 @@ addons:
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - mvn clean install sonar:sonar -Dsonar.host.url=https:/sonarqube.com -Dsonar.login=${SONARQUBE_TOKEN}
+
+deploy:
+   provider: cloudfoundry
+   username: dev2@codeaches.com
+   password: ${PCF_DEV2_PASSWORD}
+   api: https://api.run.pivotal.io
+   organization: org_dev2
+   space: space_dev2
+   manifest: manifest.yml
