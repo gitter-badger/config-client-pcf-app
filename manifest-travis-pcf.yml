@@ -9,5 +9,3 @@ applications:
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 12.+ } }'
   services:
     - my-config-server
-  buildpacks:
-    - https://github.com/cloudfoundry/java-buildpack.git
