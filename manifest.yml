@@ -1,12 +1,12 @@
 ---
 applications:
-- name: cfg-client-pet-store
+- name: config-client-pcf-app
   random-route: true
   instances: 1
-  path: target\cfgclientpetstore-0.0.1-SNAPSHOT.jar
+  path: target\config-client-pcf-app-0.0.1-SNAPSHOT.jar
   memory: 1G
   env:
-    spring.application.name: petStore
+    spring.application.name: petDetails
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 12.+ } }'
   services:
     - my-config-server

@@ -1,4 +1,4 @@
-package com.codeaches.cfgclientpetstore;
+package com.codeaches.configclientpcfapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

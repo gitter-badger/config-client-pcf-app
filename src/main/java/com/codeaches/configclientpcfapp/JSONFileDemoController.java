@@ -1,4 +1,4 @@
-package com.codeaches.cfgclientpetstore;
+package com.codeaches.configclientpcfapp;
 
 import java.io.IOException;
 import java.io.InputStream;
