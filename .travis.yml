@@ -20,11 +20,3 @@ deploy:
    organization: org_dev2
    space: space_dev2
    manifest: manifest.yml
-after_deploy:
-   provider: cloudfoundry
-   username: dev2@codeaches.com
-   password: ${PCF_DEV2_PASSWORD}
-   api: https://api.run.pivotal.io
-   organization: org_dev2
-   space: space_dev2
-   script: cf stop config-client-pcf-app
