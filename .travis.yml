@@ -20,3 +20,6 @@ deploy:
    organization: org_dev2
    space: space_dev2
    manifest: manifest.yml
+after_deploy:
+  - provider: script
+    script: cf stop config-client-pcf-app
